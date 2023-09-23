@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery - Selectors</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Photo Gallery</h1>
+        <button type="button">Add Image +</button>
+    </header>
+    <form>
+        <h2>Add new image</h2>
+        <input type="url"  id="new-url" required placeholder="image URL" />
+        <button type="submit">Add</button>
+        <button type="reset" id="cancel-btn">Cancel</button>
+    </form>
+    <ul>
+        <li>
+            <img src="/01_Selectors/images/jpg.jpg" alt="Gato">
+            <div class="overlay-img">
+                <a href="images/jpg.jpg" target="_blank">
+                    Full size Image
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="/01_Selectors/images/jpg1.jpg" alt="Gato">
+            <div class="overlay-img">
+                <a href="images/jpg1.jpg" target="_blank">
+                    Full size Image
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="/01_Selectors/images/jpg2.jpg" alt="Gato">
+            <div class="overlay-img">
+                <a href="images/jpg2.jpg" target="_blank">
+                    Full size Image
+                </a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
